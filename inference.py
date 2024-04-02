@@ -11,7 +11,7 @@
 # 8. Embed question and return relevant chunks
 # 9. Create prompt template
 # 10. Produce RAG outputs with Claude V2
-# 11. Produce RAG outputs with Claude 3 Sonnet
+# 11. Produce outputs with Claude 3 Sonnet for comparison
 #########################################
 
 
@@ -265,7 +265,7 @@ display(Markdown(answer['result']))
 
 
 #########################################
-# 11. Produce RAG outputs with Claude 3 Sonnet
+# 11. Produce outputs with Claude 3 Sonnet for comparison
 text_prompt = "What are the most important concepts in Behavioral Economics?"
 claude_3_text(text_prompt)
 #########################################
