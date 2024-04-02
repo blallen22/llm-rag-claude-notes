@@ -3,7 +3,7 @@
 # Table of Contents
 # 1. Import libraries
 # 2. Instantiate the LLM and embeddings models
-# 3. Load websites as documents
+# 3. Load PDFs of notes as documents
 # 4. Split documents into chunks
 # 5. Confirm embeddings functionality
 # 6. Create vector store
