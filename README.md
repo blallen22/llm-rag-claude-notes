@@ -1,6 +1,6 @@
 # LLM - RAG with Claude for Graduate School Notes
 
-This is a personal project that uses a Retrieval-Augmented Generation (RAG) Large Language Model (LLM) implementation to derive insights from my personal graduate school notes. My use case is that I enjoyed my graduate school experience but sometimes find myself wishing that I explicitly summarized the most important takeaways from each course. I want to be able to refresh my memory and generate insights across the 22 courses I took without having to read 1,000+ pages of text. This project allows me to solve that problem using Claude models (V2 and Sonnet) via Amazon Bedrock, Amazon Titan Embeddings, and Meta's Facebook AI Similarity Search (FAISS) vector store to generate question-and-answer insights from my graduate school notes.
+This is a personal project that uses a Retrieval-Augmented Generation (RAG) Large Language Model (LLM) implementation to derive insights from my personal graduate school notes. My use case is that I enjoyed my graduate school experience but sometimes find myself wishing that I explicitly summarized the most important takeaways from each course. I want to be able to refresh my memory and generate insights across the 22 courses I took without having to read 1,000+ pages of text. This project allows me to solve that problem using Claude models (2 and Sonnet) via Amazon Bedrock, Amazon Titan Embeddings, and Meta's Facebook AI Similarity Search (FAISS) vector store to generate question-and-answer insights from my graduate school notes.
 
 Disclaimer: This work is in a personal capacity unrelated to my employer. This package is for illustrative purposes and is not designed for end-to-end productionization as-is.
 
@@ -23,18 +23,18 @@ This package will demonstrate how to:
 - Define Claude 3 function
 - Embed question and return relevant chunks
 - Create prompt template
-- Produce RAG outputs with Claude V2
+- Produce RAG outputs with Claude 2
 - Produce outputs with Claude 3 Sonnet for comparison
 
 
-## Claude V2 RAG Output Examples
+## Claude 2 RAG Output Examples
 
-When Claude V2 was provided with the vector store of user reviews and prompted "What are the most important concepts in Behavioral Economics?", it returned:
+When Claude 2 was provided with the vector store of user reviews and prompted "What are the most important concepts in Behavioral Economics?", it returned:
 
 ![image](https://github.com/blallen22/llm-rag-claude-notes/assets/4731381/0def7435-b6fb-46b8-bb61-3d3ed360b873)
 
 
-When Claude V2 was provided with the vector store of user reviews and prompted "If I manage a small team that directly competes with larger, better-resourced teams, how can I more effectively compete against these teams?", it returned:
+When Claude 2 was provided with the vector store of user reviews and prompted "If I manage a small team that directly competes with larger, better-resourced teams, how can I more effectively compete against these teams?", it returned:
 
 ![image](https://github.com/blallen22/llm-rag-claude-notes/assets/4731381/2e9636a7-b445-453b-9109-b105f25057a9)
 
